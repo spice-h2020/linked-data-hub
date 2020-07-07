@@ -1,0 +1,136 @@
+/**
+SPICE PALETTE
+Green: 96A841
+Red: #BC2822
+Orange: #F57D0C
+Orange-Light: #F29404
+Maroon: #7B261C
+Yellow: #FFCB05
+Brown: #935D55
+Pale-Brown: #E4D7C8
+*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+a {
+    color: #F57D0C;
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    color: #00a388;
+    text-decoration: underline;
+}
+.main-page-container {
+    padding-bottom: 6em;
+}
+.page-link {
+    color: #00a388;
+}
+.page-link:hover {
+    color: #00a388;
+}
+.page-item.active .page-link {
+    color: #000;
+    background-color: #00a387;
+    border-color: #00a387;
+}
+
+.spice-green {
+    color: #F57D0C; 
+}
+
+.table-primary, .table-primary > th, .table-primary > td {
+    background-color: #00a38712;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #00a387;
+}
+
+.table-no-top-border > thead > tr:first-child > td,
+.table-no-top-border > tbody > tr:first-child > td {
+    border: none;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #000;
+    background-color: #00a38740;
+    border-color: #00a38740;
+}
+
+.btn {
+    margin-bottom: 4px;
+}
+
+.btn-success {
+    background-color: #F57D0C;
+    background-image: -moz-linear-gradient(top, #F29404, #F57D0C);
+    background-image: -ms-linear-gradient(top, #F29404, #F57D0C);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F29404), to(#F57D0C));
+    background-image: -webkit-linear-gradient(top, #F29404, #F57D0C);
+    background-image: -o-linear-gradient(top, #F29404, #F57D0C);
+    background-image: linear-gradient(top, #F29404, #F57D0C);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F29404', endColorstr='#F57D0C', GradientType=0);
+
+    border-color: #F29404;
+}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+    background-color: #F57D0C;
+}
+
+div.container a.navbar-brand > img {
+    display: inline;
+    margin-right: 4px;
+    margin-top: -2px;
+}
+
+ul.alert {
+    list-style-type: none;
+}
+
+hr {
+    background-color: #00a388;
+}
+
+h1 {
+    padding-bottom: 0.4em;
+}
+
+.breadcrumb {
+    margin-top: 14px;
+}
+
+/* Header styles
+-------------------------------------------------- */
+.datahub-header {
+    background-color: #e3f2f0;
+    color: #00a388;
+}
+
+a.datahub-header:hover {
+    color: #034439;
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #E4D7C8;
+    padding: 3.5em;
+}
