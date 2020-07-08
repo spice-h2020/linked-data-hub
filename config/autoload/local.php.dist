@@ -12,4 +12,21 @@
  */
 
 return [
+
+    'db'    => [
+            'host'     => 'localhost',
+            'port'     => '3321',
+            'user'     => 'linkeddatahub',
+            'password' => 'password',
+            'dbname'   => 'dbname'
+        ],
+    'mkdf-stream'   =>  [
+            'user'  =>  'username',
+            'pass'  =>  'password',
+            'server-url'    =>  'api-factory-server-url',
+            'public-url'    =>  'api-factory-web-url'
+        ],
+        'mkdf-file' => [
+            'destination' => 'data/',
+        ]
 ];
