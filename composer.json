@@ -11,7 +11,28 @@
         "zendframework/zend-component-installer": "^1.0 || ^2.1",
         "zendframework/zend-mvc": "^3.1.1",
         "zfcampus/zf-development-mode": "^3.2",
-        "mkdf/mkdf-core": "^0.9.2"
+        "zendframework/zend-cache": "^2.7.1",
+        "zendframework/zend-db": "^2.8.1",
+        "zendframework/zend-mvc-form": "^1.0",
+        "zendframework/zend-json": "^3.0",
+        "zendframework/zend-log": "^2.9",
+        "zendframework/zend-mvc-console": "^1.1.10",
+        "zendframework/zend-mvc-i18n": "^1.0",
+        "zendframework/zend-mvc-plugins": "^1.0",
+        "zendframework/zend-psr7bridge": "^0.2.2",
+        "zendframework/zend-session": "^2.9",
+        "zendframework/zend-servicemanager-di": "^1.0",
+        "zendframework/zend-navigation": "^2.9",
+        "zendframework/zend-stdlib": "^3.2",
+        "zendframework/zend-authentication": "^2.7",
+        "zendframework/zend-crypt": "^3.3",
+        "zendframework/zend-mail": "^2.10",
+        "doctrine/doctrine-orm-module": "^2.1",
+        "zendframework/zend-mvc-plugin-flashmessenger": "^1.2",
+        "ext-openssl": "*",
+        "zendframework/zend-paginator": "^2.8",
+        "ext-curl": "*",
+        "mkdf/mkdf-core": "master"
     },
     "autoload": {
         "psr-4": {
@@ -35,5 +56,6 @@
         ],
         "serve": "php -S 0.0.0.0:8080 -t public",
         "test": "phpunit"
-    }
+    },
+    "minimum-stability": "dev"
 }
