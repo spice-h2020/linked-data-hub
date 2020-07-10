@@ -36,11 +36,17 @@
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                    <?= $this->navigation('navigation')
+                        ->menu()
+                        ->setMinDepth(0)
+                        ->setMaxDepth(2)
+                        ->setMaxDepth(2)
+                        ->setPartial('partial/menu')?>
+                    <!-- <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="<?= $this->url('home') ?>">Home <span class="sr-only">(current)</span></a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
         </nav>

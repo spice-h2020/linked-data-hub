@@ -1,0 +1,39 @@
+<ul class="navbar-nav mr-auto">
+<?php // in module/Application/view/partial/breadcrumb.phtml:
+
+foreach ($this->container as $page) {
+    if(!$this->routeAllowed($page->getHref()) ) continue;
+    if($page->get('hide_from_menu') == true)  continue;
+    echo ("<li class='nav-item'>"). PHP_EOL;
+    //echo $this->navigation()->menu()->htmlify($page) . PHP_EOL;
+    if ($page->isActive()) {
+        echo ("<a class='nav-link active' href='".$page->getHref()."'>" . $page->label . "</a>");
+    }
+    else {
+        echo ("<a class='nav-link' href='".$page->getHref()."'>" . $page->label . "</a>");
+    }
+
+}
+
+?>
+</ul>
+<div class="form-inline mt-2 mt-md-0 text-light">
+
+    <?php if (! $this->identity()): ?>
+        <a class="datahub-header" href='/login'>login</a>
+    <?php else: ?>
+        <div class="dropdown">
+
+            <!--<button type="button" class="btn btn-danger">ADMIN</button>-->
+            <button class="btn btn-dh dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <?= $this->escapeHtml($this->identity()) ?>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="/my-account">My account</a>
+                <a class="dropdown-item" href="/logout">Logout</a>
+            </div>
+        </div>
+    <?php endif; ?>
+</div>
+
+
