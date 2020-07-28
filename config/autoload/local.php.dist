@@ -18,7 +18,8 @@ return [
             'port'     => '3321',
             'user'     => 'linkeddatahub',
             'password' => 'password',
-            'dbname'   => 'dbname'
+            'dbname'   => 'dbname',
+            'charset'  => 'utf8mb4'
         ],
     'mkdf-stream'   =>  [
             'user'  =>  'username',
