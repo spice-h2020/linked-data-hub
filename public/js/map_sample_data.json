@@ -1,0 +1,1532 @@
+{
+  "type": "FeatureCollection",
+  "name": "Datafeeds",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Parking Meter - Frequency of Tickets Issued",
+        "uuid": "a247b1d8-fb7c-4748-afd1-0a7c4cd3f24c",
+        "name": "parking-meter-frequency-of-tickets-issued",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/parking-meter-frequency-of-tickets-issued\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7576441,
+          52.0381382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi device - bletchley",
+        "uuid": "cc6dfb1c-39bd-4e80-8cf8-99d9c41dd50f",
+        "name": "koubachi-device-bletchley",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-device-bletchley\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.72945289313793,
+          51.993007529433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi device - shenley church end",
+        "uuid": "38f72617-c806-462b-ad9a-17fa3326803d",
+        "name": "koubachi-device-shenley-church-end",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-device-shenley-church-end\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.79340480268002,
+          52.022973041898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Environment Agency Flood Alerts in Buckinghamshire",
+        "uuid": "648d644a-61bb-489f-a7c4-1d68ea60e849",
+        "name": "environment-agency-flood-alerts",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/environment-agency-flood-alerts\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7576441,
+          52.0381382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Milton Keynes Smart Parking Car Park",
+        "uuid": "8917fd12-6cbc-47ab-9d0b-8b7aa67b1c02",
+        "name": "milton-keynes-smart-parking-car-park-gold",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/milton-keynes-smart-parking-car-park-gold\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Glass Recycling 1",
+        "uuid": "64be9431-2089-4da0-a511-9d20ffe2a550",
+        "name": "glass-recycling-1",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/glass-recycling-1\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.718158,
+          51.996724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Glass Recycling 2",
+        "uuid": "12972404-5685-4be3-bada-50bc383043f5",
+        "name": "glass-recycling-2",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/glass-recycling-2\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.718126,
+          51.996718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mixed Recycling 1",
+        "uuid": "3cce208e-fa2a-42ae-9316-22ed29897e77",
+        "name": "mixed-recycling-1",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mixed-recycling-1\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.718092,
+          51.996714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mixed Recycling 2",
+        "uuid": "4758663e-6305-4c47-8e50-e9287380687c",
+        "name": "mixed-recycling-2",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mixed-recycling-2\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.718066,
+          51.996709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "OpenWeatherMap current weather in Milton Keynes",
+        "uuid": "e47ee1d4-e8a9-4978-9c4b-ed53a9883b51",
+        "name": "openweathermap-current-weather-in-milton-keynes",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/openweathermap-current-weather-in-milton-keynes\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.76,
+          52.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "5 days \/ 3 hours forecast from OpenWeatherMap",
+        "uuid": "238f4d4e-d245-4bc7-b261-0e2ec4be3180",
+        "name": "5-days-3-hours-forecast-from-openweathermap",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/5-days-3-hours-forecast-from-openweathermap\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75583,
+          52.041721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "16 day \/ daily forecast from OpenWeatherMap",
+        "uuid": "a1a320e8-2f77-4637-a999-6142e07ed138",
+        "name": "16-day-daily-forecast-from-openweathermap",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/16-day-daily-forecast-from-openweathermap\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75583,
+          52.041721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "FixMyStreet Alerts in Milton Keynes",
+        "uuid": "12fd6ff8-b1e3-4829-8440-8b92b286de37",
+        "name": "fixmystreet-alerts-in-milton-keynes",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/fixmystreet-alerts-in-milton-keynes\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75583,
+          52.041721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device in KMi - 7936",
+        "uuid": "a37e4a22-d4e9-41c5-b513-c41c978aa5c8",
+        "name": "koubachi-device-7936",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-device-7936\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7070877,
+          52.024988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MK_Roundabouts_Belvedere_W",
+        "uuid": "b8e226c3-a091-437b-ac9c-2da4b41291fd",
+        "name": "mk_roundabouts_belvedere_w",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mk_roundabouts_belvedere_w\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75222702042083,
+          52.049031163425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MK_Roundabouts_Belvedere_N",
+        "uuid": "41c08485-03fb-4eba-8439-4a7428c649c0",
+        "name": "mk_roundabouts_belvedere_e",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mk_roundabouts_belvedere_e\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75199098602752,
+          52.049552409786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MK_Roundabouts_Belvedere_E",
+        "uuid": "657fa8e6-9757-4406-9217-e53cb4868865",
+        "name": "mk_roundabouts_belvedere_e-2",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mk_roundabouts_belvedere_e-2\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75115070350876,
+          52.049395079792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MK_Roundabouts_NSecklow_E",
+        "uuid": "3a0c7a5c-1f5d-417c-ae97-627d7131b0ce",
+        "name": "mk_roundabouts_nsecklow_e",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mk_roundabouts_nsecklow_e\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75774164215545,
+          52.046866936287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MK_Roundabouts_NSecklow_S",
+        "uuid": "83b64be5-fc9f-4ec3-a128-5d47a8369500",
+        "name": "mk_roundabouts_nsecklow_s",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mk_roundabouts_nsecklow_s\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75785965935211,
+          52.046398446491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MK_Roundabouts_NSecklow_W",
+        "uuid": "79094f05-d119-401e-b36f-0cdb9a646379",
+        "name": "mk_roundabouts_nsecklow_w",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mk_roundabouts_nsecklow_w\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75856432922592,
+          52.046498446372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MK_Roundabouts_NSecklow_N",
+        "uuid": "99487934-99b5-45e6-bd38-a04eaaab0bc1",
+        "name": "mk_roundabouts_nsecklow_n",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mk_roundabouts_nsecklow_n\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75852141388168,
+          52.04694713992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MK_Roundabouts_Belvedere_S2_LEGACY",
+        "uuid": "af35e609-d320-4a6b-93fe-02aa66167291",
+        "name": "mk_roundabouts_belvedere_s2-2",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mk_roundabouts_belvedere_s2-2\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7513216137886,
+          52.048921239024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bus_Route7_5002",
+        "uuid": "41ce7e51-c053-470d-980a-951f096f42cf",
+        "name": "bus_route7_5002",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/bus_route7_5002\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7576441,
+          52.0381382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bus_Route7_5003",
+        "uuid": "807bbfa9-c121-489f-bae5-9c38148391a0",
+        "name": "bus_route7_5003",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/bus_route7_5003\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7576441,
+          52.0381382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bus_Route7_5004",
+        "uuid": "d8280391-092f-4949-a7e7-092d3aff211a",
+        "name": "bus_route7_5004",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/bus_route7_5004\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7576441,
+          52.0381382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bus_Route7_5005",
+        "uuid": "79211003-8c47-4daf-bb79-f045bbbeeb73",
+        "name": "bus_route7_5005",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/bus_route7_5005\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7576441,
+          52.0381382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bus_Route7_5006",
+        "uuid": "2c76e156-51df-419e-83d4-12c8c1fe0dc4",
+        "name": "bus_route7_5006",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/bus_route7_5006\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7576441,
+          52.0381382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bus_Route7_5007",
+        "uuid": "9bd427d7-e30c-4192-817f-783747bef712",
+        "name": "bus_route7_5007",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/bus_route7_5007\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7576441,
+          52.0381382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bus_Route7_5008",
+        "uuid": "6fcd9887-6f23-4620-8e36-15d5fc7dffe9",
+        "name": "bus_route7_5008",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/bus_route7_5008\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7576441,
+          52.0381382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device in Brasil - 786e",
+        "uuid": "5be0493a-37fb-4c92-94ff-13206c8e3da3",
+        "name": "koubachi-device-786e",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-device-786e\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.9864889,
+          -22.9438194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bus_Route7_Diesel1",
+        "uuid": "eed0f411-0dde-4e54-b3e3-4e380e78e411",
+        "name": "bus_route7_diesel1",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/bus_route7_diesel1\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7576441,
+          52.0381382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bus_Route7_Diesel2",
+        "uuid": "6bcdd288-4285-4b4f-92c6-0eb965178ee1",
+        "name": "bus_route7_diesel2",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/bus_route7_diesel2\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7576441,
+          52.0381382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device in India - 7839",
+        "uuid": "ea4ae91a-6c2b-4f2f-9899-c0c6a8539bc8",
+        "name": "koubachi-soil-moisture-device-in-india-7839",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-soil-moisture-device-in-india-7839\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6747412,
+          18.5703026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device - 78e4",
+        "uuid": "f52f8ac2-4957-4282-b053-ea7270a8b01b",
+        "name": "koubachi-soil-moisture-device-78e4",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-soil-moisture-device-78e4\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.70754528045654,
+          52.024824847916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "TestResMay003 public feed to delete after migration",
+        "uuid": "27117ab1-0584-4d4c-8246-52beff57e996",
+        "name": "testresmay003-public-feed-to-delete-after-migration",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/testresmay003-public-feed-to-delete-after-migration\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7576441,
+          52.0381382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "CarPark_Saxon_Gate2",
+        "uuid": "8498237d-9510-41ac-81a0-d9e85f3e80be",
+        "name": "carpark_saxon_gate2",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/carpark_saxon_gate2\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75682550668716,
+          52.037171099957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MK_Roundabouts_Belvedere_E2",
+        "uuid": "cbb34aa1-96ca-4788-8217-2139c425f3ea",
+        "name": "mk_roundabouts_belvedere_e2",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mk_roundabouts_belvedere_e2\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75115070350876,
+          52.049395079792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MK_Roundabouts_Springfield_W",
+        "uuid": "6d755f2b-304b-49d4-a5ce-d5c7c4cecac0",
+        "name": "mk_roundabouts_springfield_w",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mk_roundabouts_springfield_w\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.74492856860161,
+          52.041448155775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MK_Roundabouts_Springfield_N",
+        "uuid": "56806b20-9163-4496-8698-6c4813569052",
+        "name": "mk_roundabouts_springfield_n",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mk_roundabouts_springfield_n\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.74485346674919,
+          52.041893600454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MK_Roundabouts_Springfield_E",
+        "uuid": "13d6f63c-cc0b-421a-9767-7e4189cd5682",
+        "name": "mk_roundabouts_springfield_e",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mk_roundabouts_springfield_e\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.74412122368813,
+          52.041838827476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MK_Roundabouts_Springfield_S",
+        "uuid": "881d1912-3c78-4155-bd0d-1a9722c75c2b",
+        "name": "mk_roundabouts_springfield_s",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mk_roundabouts_springfield_s\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.74413195252419,
+          52.041439576777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MK_Roundabouts_Belvedere_S2",
+        "uuid": "c339e6ed-d205-43bb-8ba4-f2f5667f647f",
+        "name": "mk_roundabouts_belvedere_s-2",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mk_roundabouts_belvedere_s-2\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75134307146072,
+          52.048956868764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK1",
+        "uuid": "93c69d08-cbd2-44c0-859a-1ffda4244814",
+        "name": "samsung-trial-average-electricity-consumption-in-mk1",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk1\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.72589979999998,
+          52.0083837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK2",
+        "uuid": "8b59f992-53ea-488a-9915-2ef74c8ac623",
+        "name": "samsung-trial-average-electricity-consumption-in-mk2",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk2\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7253579400545,
+          51.990567942779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK3",
+        "uuid": "88a3154f-799e-4636-aea8-66ad5fe461c9",
+        "name": "samsung-trial-average-electricity-consumption-in-mk3",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk3\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75321116782007,
+          51.995984205882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung  Trial - Average Electricity Consumption in MK4",
+        "uuid": "b00768ae-597e-4e65-acf8-61e8006ee21a",
+        "name": "samsung-trial-average-electricity-consumption-in-mk4",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk4\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.78301799092559,
+          52.004310900181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK5",
+        "uuid": "bd489114-39d5-44e9-8ab2-9ad4fd6361e7",
+        "name": "samsung-trial-average-electricity-consumption-in-mk5",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk5\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.78311978019324,
+          52.020861589372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK6",
+        "uuid": "e11164c4-8fb3-4947-80a0-75ca816d0bae",
+        "name": "samsung-trial-average-electricity-consumption-in-mk6",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk6\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.74296863295269,
+          52.029633378467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Energy Trial - Average Electricity Consumption in MK7",
+        "uuid": "7cf2e3bd-9487-41a0-ac35-e19d14cbacff",
+        "name": "samsung-energy-trial-average-electricity-consumption-in-mk7",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-energy-trial-average-electricity-consumption-in-mk7\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.69130128678304,
+          52.01965274813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK8",
+        "uuid": "2d52cf88-293b-4e7f-8ac7-eb407e41d5fe",
+        "name": "samsung-trial-average-electricity-consumption-in-mk8",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk8\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.80264485885886,
+          52.033688213213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK9",
+        "uuid": "3988a1d9-d9ba-408b-9d52-943f6325f3ba",
+        "name": "samsung-trial-average-electricity-consumption-in-mk9",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk9\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75190625095057,
+          52.039425307985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK10",
+        "uuid": "ba880869-f47d-4b2e-a174-1d0bb6d95277",
+        "name": "samsung-trial-average-electricity-consumption-in-mk10",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk10\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6998809637827,
+          52.039587995976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK11",
+        "uuid": "d7f53cbf-2a87-4f0e-95e2-04a9f17e4ee1",
+        "name": "samsung-trial-average-electricity-consumption-in-mk11",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk11\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.84130897835498,
+          52.052505528139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK12",
+        "uuid": "493a414b-a9ed-4072-96f3-57c64923cdb7",
+        "name": "samsung-trial-average-electricity-consumption-in-mk12",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk12\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.81702424067797,
+          52.058147359322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK13",
+        "uuid": "636ae312-546c-44cf-847b-d6f161680d4c",
+        "name": "samsung-trial-average-electricity-consumption-in-mk13",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk13\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.78285428486056,
+          52.053188215139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK14",
+        "uuid": "0161202d-ab8c-49ef-9c8b-79fc6711cf4e",
+        "name": "samsung-trial-average-electricity-consumption-in-mk14",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk14\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75633217634409,
+          52.062703664516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK15",
+        "uuid": "758c6194-732a-4da1-8f35-2331899a4af5",
+        "name": "samsung-trial-average-electricity-consumption-in-mk15",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk15\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7290990969163,
+          52.056594845815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK16",
+        "uuid": "44c40657-894d-482c-ba1c-a28ff97a22c1",
+        "name": "samsung-trial-average-electricity-consumption-in-mk15-2",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk15-2\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.72200299118166,
+          52.08959096649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK17",
+        "uuid": "25d35f0d-95fc-440a-93d1-52f2aac3fa3f",
+        "name": "samsung-trial-average-electricity-consumption-in-mk17",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk17\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.70329473018293,
+          51.993574570122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK18",
+        "uuid": "5bb76b2f-5d9d-4152-a7af-e63b94cd3cf0",
+        "name": "samsung-trial-average-electricity-consumption-in-mk18",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk18\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9698578381113,
+          51.978704362563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Samsung Trial - Average Electricity Consumption in MK19",
+        "uuid": "e1cb54fa-93be-480a-8c2f-63bd5a3eae01",
+        "name": "samsung-trial-average-electricity-consumption-in-mk19",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/samsung-trial-average-electricity-consumption-in-mk19\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.85479408544304,
+          52.074158718354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device - 7945",
+        "uuid": "df55e823-f00c-4ec8-90eb-bcf31b82d0f7",
+        "name": "koubachi-soil-moisture-device-7945-2",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-soil-moisture-device-7945-2\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.72219389999998,
+          52.0653297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device - 54dc",
+        "uuid": "379d0b3d-a6a3-4c35-a22b-15db7a85a984",
+        "name": "koubachi-soil-moisture-device-54dc",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-soil-moisture-device-54dc\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.71790750000002,
+          51.9913306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device - 5575",
+        "uuid": "f0a13167-3750-4f0b-a169-009129b11913",
+        "name": "koubachi-soil-moisture-device-5575",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-soil-moisture-device-5575\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.65606849999995,
+          51.9479954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device - 54ea",
+        "uuid": "b8819a2d-87c9-4cd2-976b-2e13dd95f682",
+        "name": "koubachi-soil-moisture-device-54ea",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-soil-moisture-device-54ea\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.76753880000001,
+          51.9760627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device - 7933",
+        "uuid": "e71031c8-d424-4510-80d1-a1629e44c469",
+        "name": "koubachi-soil-moisture-device-7933",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-soil-moisture-device-7933\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.87526579999997,
+          51.9729778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device - 789b",
+        "uuid": "1f52d910-dc09-45c5-9b31-3334d4ea1023",
+        "name": "koubachi-soil-moisture-device-789b",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-soil-moisture-device-789b\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.72972300000004,
+          52.0405865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device - 84ce",
+        "uuid": "7f88e6eb-0bf8-486d-a18c-a9b132c7abea",
+        "name": "koubachi-soil-moisture-device-84ce-2",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-soil-moisture-device-84ce-2\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.70190120000007,
+          52.0336388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device - 78c9",
+        "uuid": "e25122f3-253d-4ea6-b5e1-e2c0c758bb3d",
+        "name": "koubachi-soil-moisture-device-78c9",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-soil-moisture-device-78c9\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.69662870000002,
+          52.0404949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device - 791e",
+        "uuid": "6fcfca38-b3f2-4ee7-b7b1-d75437750e20",
+        "name": "koubachi-soil-moisture-device-791e",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-soil-moisture-device-791e\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.81304980000004,
+          52.059797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device - 786a",
+        "uuid": "9f2493b0-b40b-4450-be26-9b642446d693",
+        "name": "koubachi-soil-moisture-device-786a",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-soil-moisture-device-786a\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.68972869999993,
+          52.0461008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bus_Route7_5001",
+        "uuid": "2af7249c-bc1b-47eb-abf1-b8e823501918",
+        "name": "bus_route7_5001-2",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/bus_route7_5001-2\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7576441,
+          52.0381382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device - 78d1",
+        "uuid": "2398d48b-62e2-4641-8a27-29504d0c04e5",
+        "name": "koubachi-soil-moisture-device-78d1",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-soil-moisture-device-78d1\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.74324019999995,
+          51.99217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MK_Roundabouts_Belvedere_S",
+        "uuid": "e3f30c60-89f4-423b-a789-97c4b5ea5e81",
+        "name": "mk_roundabouts_belvedere_s-3",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/mk_roundabouts_belvedere_s-3\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75160928070545,
+          52.048921750374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Koubachi soil moisture device - 6ab2",
+        "uuid": "3de50c25-4df3-4e5d-94b0-1753a2735309",
+        "name": "koubachi-soil-moisture-device-6ab2",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/koubachi-soil-moisture-device-6ab2\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.57025380000005,
+          51.9877067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "sensors-data-mkbus",
+        "uuid": "890b08bd-f64b-4284-87c1-898cbd970da2",
+        "name": "sensors-data-mkbus",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/sensors-data-mkbus\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7576441,
+          52.0381382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "21FC5F Soil moisture device based on SigFox",
+        "uuid": "2ba526da-b435-46b5-8bcf-06b31cd4863b",
+        "name": "soil-moisture-device-based-on-sigfox-3",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/soil-moisture-device-based-on-sigfox-3\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7439917,
+          50.7800583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "21FC5F Soil moisture device based on SigFox",
+        "uuid": "eeac3118-0c09-4211-84af-92725b0d6d2c",
+        "name": "21fc5f-soil-moisture-device-based-on-sigfox",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/21fc5f-soil-moisture-device-based-on-sigfox\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7440424789675,
+          50.779944410124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ANPR",
+        "uuid": "2050613d-a618-4026-bde7-5c9cd1e71027",
+        "name": "anpr",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/anpr\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7576441,
+          52.0381382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "SciRoc Competition: Master Dataset",
+        "uuid": "5a05b34b-6772-4583-8d1a-427d2c72e330",
+        "name": "sciroc-master",
+        "marker-color": "#f00",
+        "marker-size": "small",
+        "url": "https:\/\/datahub.mksmart.org\/dataset\/sciroc-master\/",
+        "visible": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.753055,
+          52.044772
+        ]
+      }
+    }
+  ]
+}

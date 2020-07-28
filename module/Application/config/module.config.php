@@ -86,57 +86,57 @@ return [
     ],
     'navigation' => [
         'default' => [
-            // [
- //                'label' => 'Datasets',
- //                'route' => 'dataset',
- //                'pages' => [
- //                    [
- //                        'label'=>'Overview',
- //                        'route'=>'dataset',
- //                        'action' => 'details'
- //                    ],
- //                    [
- //                        'label'=>'Location',
- //                        'route'=>'dataset',
- //                        'action' => 'geospatial-details'
- //                    ],
- //                    [
- //                        'label'=>'Ownership and licensing',
- //                        'route'=>'dataset',
- //                        'action' => 'ownership-details'
- //                    ],
- //                    [
- //                        'label'=>'Permissions',
- //                        'route'=>'dataset',
- //                        'action' => 'permissions-details'
- //                    ],
- //                    [
- //                        'label'=>'Licences',
- //                        'route'=>'dataset',
- //                        'action' => 'licence'
- //                    ],
- //                    [
- //                        'label'=>'Collections',
- //                        'route'=>'dataset-collections',
- //                        'action' => 'details'
- //                    ],
- //                    [
- //                        'label'=>'Tags',
- //                        'route'=>'dataset-tags',
- //                        //'action' => 'details'
- //                    ],
- //                    [
- //                        'label'=>'Files',
- //                        'route'=>'file',
- //                        //'action' => 'details',
- //                    ],
- //                    [
- //                        'label'=>'Stream',
- //                        'route'=>'stream',
- //                        //'action' => 'details',
- //                    ],
- //                ]
- //            ],
+            [
+                'label' => 'Datasets',
+                'route' => 'dataset',
+                'pages' => [
+                    [
+                        'label'=>'Overview',
+                        'route'=>'dataset',
+                        'action' => 'details'
+                    ],
+                    [
+                        'label'=>'Location',
+                        'route'=>'dataset',
+                        'action' => 'geospatial-details'
+                    ],
+                    [
+                        'label'=>'Ownership and licensing',
+                        'route'=>'dataset',
+                        'action' => 'ownership-details'
+                    ],
+                    [
+                        'label'=>'Permissions',
+                        'route'=>'dataset',
+                        'action' => 'permissions-details'
+                    ],
+                    [
+                        'label'=>'Licences',
+                        'route'=>'dataset',
+                        'action' => 'licence'
+                    ],
+                    [
+                        'label'=>'Collections',
+                        'route'=>'dataset-collections',
+                        'action' => 'details'
+                    ],
+                    [
+                        'label'=>'Tags',
+                        'route'=>'dataset-tags',
+                        //'action' => 'details'
+                    ],
+                    [
+                        'label'=>'Files',
+                        'route'=>'file',
+                        //'action' => 'details',
+                    ],
+                    [
+                        'label'=>'Stream',
+                        'route'=>'stream',
+                        //'action' => 'details',
+                    ],
+                ]
+            ],
             // [
 //                 'label' => 'Collections',
 //                 'route' => 'collection'

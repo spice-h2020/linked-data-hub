@@ -32,8 +32,13 @@ return [
     'Zend\I18n',
     'Zend\Router',
     'Zend\Validator',
-    "MKDF\Core",
     'DoctrineModule',
     'DoctrineORMModule',
+    'MKDF\Core',
+    'MKDF\Datasets',
+    'MKDF\File',
+    'MKDF\Keys',
+    'MKDF\Stream',
+    'MKDF\Topics',
     'Application'
 ];
