@@ -32,7 +32,7 @@
         "ext-openssl": "*",
         "zendframework/zend-paginator": "^2.8",
         "ext-curl": "*",
-        "mkdf/mkdf-core": "master"
+        "mkdf/mkdf-core": "master@dev"
     },
     "autoload": {
         "psr-4": {
