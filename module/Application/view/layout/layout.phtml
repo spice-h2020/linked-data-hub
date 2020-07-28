@@ -61,10 +61,46 @@
 </main>
 <br clear="all" />
 <footer class="footer">
-<div class="container">
-    <p>Version <?= \Application\Module::VERSION ?></p>
-	<p>&copy; 2020 <!-- - <?= date('Y') ?> --> by The Open University. All rights reserved.</p>
-</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="text-muted text-left">
+<?php /*?>
+                    <a href="<?= $this->url('content', ['action' => 'static', 'page' => 'about'])?>">About</a><br />
+                    <a href="<?= $this->url('content', ['action' => 'static', 'page' => 'termsconditions'])?>">Terms and Conditions</a><br />
+                    <a href="<?= $this->url('content', ['action' => 'static', 'page' => 'contact'])?>">Contact</a><br />
+<?php */ ?>         <a href="#">About</a><br />
+                    <a href="#">Terms and Conditions</a><br />
+                    <a href="#">Contact</a><br />
+                </span>
+            </div>
+            <div class="col-md-4 text-center">
+                        <small class="text-muted text-right">
+        	&copy; <?= date('Y') ?> <!-- - <?= date('Y') ?> --> by The Open University. All rights reserved. <br/>
+*<br/>
+            Version <?= \Application\Module::VERSION ?>
+                        </small>
+            </div>
+            <!-- <div class="col-md-3 text-center">
+                <span class="text-muted text-center"><a href="http://kmi.open.ac.uk/" target="_blank">
+                        <img src="/img/kmi-logo.png" width="100" alt="KMi"></a></span>
+            </div>
+            <div class="col-md-2 text-center">
+                <span class="text-muted text-center"><a href="https://isds.kmi.open.ac.uk/" target="_blank">
+                        <img src="/img/isds-logo.png" height="60px" alt="ISDS"></a></span>
+            </div> -->
+            <div class="col-md-4 text-right">
+                <span class="text-muted text-center"><a href="http://www.open.ac.uk/" target="_blank">
+                        <img src="/img/ou-logo.png" height="60px" alt="The Open University"></a></span>
+            </div>
+            
+            <!-- <div class="col-md-2 text-center">
+                <span class="text-muted text-center"><a href="http://mkdf.github.io/" target="_blank">
+                        <img src="/img/mkdf-logo.png" width="100" alt="MK Data Factory"></a></span>
+            </div> -->
+        </div>
+
+    </div>
 </footer>
         
         <?= $this->inlineScript() ?>

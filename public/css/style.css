@@ -118,15 +118,7 @@ h1 {
 
 /* Header styles
 -------------------------------------------------- */
-.datahub-header {
-    background-color: #e3f2f0;
-    color: #00a388;
-}
 
-a.datahub-header:hover {
-    color: #034439;
-    text-decoration: none;
-}
 
 footer {
     position: absolute;
