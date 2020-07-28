@@ -137,46 +137,46 @@ return [
                     ],
                 ]
             ],
+            [
+                'label' => 'Collections',
+                'route' => 'collection'
+            ],
             // [
-//                 'label' => 'Collections',
-//                 'route' => 'collection'
+//                 'label' => 'Help',
+//                 'route' => 'content',
+//                 /*'pages' => [
+//                     [
+//                         'label' => 'About',
+//                         'route' => 'content',
+//                         'page' => 'about'
+//                     ],
+//                     [
+//                         'label' => 'Stream API',
+//                         'route' => 'content',
+//                         'page' => 'streamapi'
+//                     ],
+//                     [
+//                         'label' => 'Developer',
+//                         'route' => 'content',
+//                         'page' => 'developer'
+//                     ],
+//                     [
+//                         'label' => 'Terms and conditions',
+//                         'route' => 'content',
+//                         'page' => 'termsconditions'
+//                     ],
+//                     [
+//                         'label' => 'The team',
+//                         'route' => 'content',
+//                         'page' => 'team'
+//                     ],
+//                     [
+//                         'label' => 'Contact',
+//                         'route' => 'content',
+//                         'page' => 'contact'
+//                     ]
+//                 ]*/
 //             ],
-            // [
-            //     'label' => 'Help',
-            //     'route' => 'content',
-            //     /*'pages' => [
-            //         [
-            //             'label' => 'About',
-            //             'route' => 'content',
-            //             'page' => 'about'
-            //         ],
-            //         [
-            //             'label' => 'Stream API',
-            //             'route' => 'content',
-            //             'page' => 'streamapi'
-            //         ],
-            //         [
-            //             'label' => 'Developer',
-            //             'route' => 'content',
-            //             'page' => 'developer'
-            //         ],
-            //         [
-            //             'label' => 'Terms and conditions',
-            //             'route' => 'content',
-            //             'page' => 'termsconditions'
-            //         ],
-            //         [
-            //             'label' => 'The team',
-            //             'route' => 'content',
-            //             'page' => 'team'
-            //         ],
-            //         [
-            //             'label' => 'Contact',
-            //             'route' => 'content',
-            //             'page' => 'contact'
-            //         ]
-            //     ]*/
-            // ],
             [
                 'label' => 'Users',
                 'route' => 'users',
@@ -197,18 +197,18 @@ return [
                         'action' => 'overview',
                         'hide_from_menu' => true,
                     ],
-                    // [
-                    //     'label'=>'My datasets',
-                    //     'route'=>'my-account/mydatasets',
-                    //     'action' => 'mydatasets',
-                    //     'hide_from_menu' => true,
-                    // ],
-                    // [
-                    //     'label'=>'My keys',
-                    //     'route'=>'key',
-                    //     'action' => 'index',
-                    //     'hide_from_menu' => true,
-                    // ],
+                    [
+                        'label'=>'My datasets',
+                        'route'=>'my-account/mydatasets',
+                        'action' => 'mydatasets',
+                        'hide_from_menu' => true,
+                    ],
+                    [
+                        'label'=>'My keys',
+                        'route'=>'key',
+                        'action' => 'index',
+                        'hide_from_menu' => true,
+                    ],
                 ]
             ],
         ],
