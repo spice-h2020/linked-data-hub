@@ -1,13 +1,16 @@
 /**
 SPICE PALETTE
-Green: 96A841
-Red: #BC2822
-Orange: #F57D0C
+Green: #96A841 #95A841
+Red: #BC2822 #BC2822
+Orange: #F57D0B #F57D0B
 Orange-Light: #F29404
 Maroon: #7B261C
 Yellow: #FFCB05
 Brown: #935D55
 Pale-Brown: #E4D7C8
+Extra-Pale-Brown: #F3E4D7
+Black: #343a40
+
 */
 html {
     position: relative;
@@ -18,42 +21,45 @@ body {
     padding-bottom: 40px;
     /* Margin bottom by footer height */
     margin-bottom: 60px;
+    background-color: #FDFEFD;
 }
 
 a {
-    color: #F57D0C;
+    color: #F57D0B;
     text-decoration: none;
 }
 
 a:active, a:hover {
-    color: #00a388;
+    color: #F29404;
     text-decoration: underline;
 }
 .main-page-container {
     padding-bottom: 6em;
 }
 .page-link {
-    color: #00a388;
+    color: #F57D0B;
 }
 .page-link:hover {
-    color: #00a388;
+    color: #F29404;
 }
 .page-item.active .page-link {
-    color: #000;
-    background-color: #00a387;
-    border-color: #00a387;
+    color: #FFF;
+    background-color: #F29404;
+    border-color: #F29404;
 }
 
 .spice-green {
-    color: #F57D0C; 
+    color: #F57D0B;
 }
-
+.card-header{
+  background-color: #F3E4D7;
+}
 .table-primary, .table-primary > th, .table-primary > td {
-    background-color: #00a38712;
+    background-color: #E4D7C8;
 }
 
 .table-bordered th, .table-bordered td {
-    border: 1px solid #00a387;
+    border: 1px solid #95A841;
 }
 
 .table-no-top-border > thead > tr:first-child > td,
@@ -63,9 +69,10 @@ a:active, a:hover {
 
 .list-group-item.active {
     z-index: 2;
-    color: #000;
-    background-color: #00a38740;
-    border-color: #00a38740;
+    color: #343a40;
+    font-weight: bold;
+    background-color: #F3E4D7; /*#00a38740;*/
+    border-color: #F3E4D7 /*#00a38740;*/
 }
 
 .btn {
@@ -73,24 +80,36 @@ a:active, a:hover {
 }
 
 .btn-success {
-    background-color: #F57D0C;
-    background-image: -moz-linear-gradient(top, #F29404, #F57D0C);
-    background-image: -ms-linear-gradient(top, #F29404, #F57D0C);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F29404), to(#F57D0C));
-    background-image: -webkit-linear-gradient(top, #F29404, #F57D0C);
-    background-image: -o-linear-gradient(top, #F29404, #F57D0C);
-    background-image: linear-gradient(top, #F29404, #F57D0C);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F29404', endColorstr='#F57D0C', GradientType=0);
+    background-color: #95A841;
+    background-image: -moz-linear-gradient(top, #F57D0B, #F29404);
+    background-image: -ms-linear-gradient(top, #F57D0B, #F29404);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F57D0B), to(#F29404));
+    background-image: -webkit-linear-gradient(top, #F57D0B, #F29404);
+    background-image: -o-linear-gradient(top, #F57D0B, #F29404);
+    background-image: linear-gradient(top, #F57D0B, #F29404);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F57D0B', endColorstr='#F29404', GradientType=0);
 
     border-color: #F29404;
 }
 
 .btn-success:hover,
 .btn-success:active,
-.btn-success.active,
+.btn-success.active {
+  background-color: #F29404;
+  background-image: -moz-linear-gradient(top, #F29404, #F29404);
+  background-image: -ms-linear-gradient(top, #F29404, #F29404);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F29404), to(#F29404));
+  background-image: -webkit-linear-gradient(top, #F29404, #F29404);
+  background-image: -o-linear-gradient(top, #F29404, #F29404);
+  background-image: linear-gradient(top, #F29404, #F29404);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F29404', endColorstr='#F29404', GradientType=0);
+
+  border-color: #F29404;
+}
 .btn-success.disabled,
 .btn-success[disabled] {
-    background-color: #F57D0C;
+    background-color: #DDD;
+        border-color: #999;
 }
 
 div.container a.navbar-brand > img {
@@ -111,6 +130,10 @@ h1 {
     padding-top: 0.4em;
     padding-bottom: 0.4em;
 }
+h1,h2,h3,h4,h5,h6{
+  color: #935D55;
+}
+
 
 .breadcrumb {
     margin-top: 14px;
@@ -118,7 +141,9 @@ h1 {
 
 /* Header styles
 -------------------------------------------------- */
-
+nav.navbar-spice{
+  /* background-color: #7B261C; */
+}
 
 footer {
     position: absolute;
@@ -126,4 +151,17 @@ footer {
     width: 100%;
     background-color: #E4D7C8;
     padding: 3.5em;
+}
+
+form .form-group ul li {
+  color: #F57D0B;
+}
+
+.jumbotron{
+    padding: 1rem 1rem;
+    background-color: inherit;
+}
+.jumbotron img{
+  max-width: 100%;
+  max-height: 100%;
 }
