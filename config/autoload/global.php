@@ -2,6 +2,7 @@
 /**
 Global configuration here
 */
+use Zend\Session\Storage\SessionArrayStorage;
 return [
     // Session configuration.
     'session_config' => [

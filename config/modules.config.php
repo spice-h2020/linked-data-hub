@@ -36,9 +36,9 @@ return [
     'DoctrineORMModule',
     'MKDF\Core',
     'MKDF\Datasets',
-    'MKDF\File',
+    'MKDF\Topics',
     'MKDF\Keys',
     'MKDF\Stream',
-    'MKDF\Topics',
+    'MKDF\File',
     'Application'
 ];
