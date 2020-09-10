@@ -16,6 +16,8 @@
         ->prependStylesheet($this->basePath('css/jquery-ui.css'))
         ->prependStylesheet($this->basePath('css/bootstrap.css'))
         ->appendStylesheet($this->basePath('css/style.css'))
+        ->appendStylesheet('https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/1.12.0/mapbox-gl.css')
+        ->appendStylesheet($this->basePath('css/map.css'))
         ?>
 
         <!-- Scripts -->
@@ -23,6 +25,7 @@
         ->prependFile($this->basePath('js/jquery-ui.js'))
         ->prependFile($this->basePath('js/jquery-3.1.0.min.js'))
         ->prependFile($this->basePath('js/bootstrap.min.js'))
+        ->appendFile('https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/1.12.0/mapbox-gl.js')
         ?>
 <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
     </head>
