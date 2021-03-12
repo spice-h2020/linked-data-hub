@@ -48,6 +48,10 @@ a:active, a:hover {
     border-color: #F29404;
 }
 
+.spice-header {
+    background-color: white;
+}
+
 .spice-green {
     color: #F57D0B;
 }

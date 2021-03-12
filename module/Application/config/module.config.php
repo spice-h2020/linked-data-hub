@@ -34,11 +34,23 @@ return [
                     ],
                 ],
             ],
+            'content' => [
+                'type'    => Segment::class,
+                'options' => [
+                    'route'    => '/content[/:page]',
+                    'defaults' => [
+                        'controller' => Controller\StaticController::class,
+                        'action'     => 'static',
+                        'page'      => 'termsconditions',
+                    ],
+                ],
+            ],
         ],
     ],
     'controllers' => [
         'factories' => [
             Controller\IndexController::class => InvokableFactory::class,
+            Controller\StaticController::class => InvokableFactory::class,
         ],
     ],
     'view_manager' => [
@@ -141,42 +153,11 @@ return [
                 'label' => 'Collections',
                 'route' => 'collection'
             ],
-            // [
-//                 'label' => 'Help',
-//                 'route' => 'content',
-//                 /*'pages' => [
-//                     [
-//                         'label' => 'About',
-//                         'route' => 'content',
-//                         'page' => 'about'
-//                     ],
-//                     [
-//                         'label' => 'Stream API',
-//                         'route' => 'content',
-//                         'page' => 'streamapi'
-//                     ],
-//                     [
-//                         'label' => 'Developer',
-//                         'route' => 'content',
-//                         'page' => 'developer'
-//                     ],
-//                     [
-//                         'label' => 'Terms and conditions',
-//                         'route' => 'content',
-//                         'page' => 'termsconditions'
-//                     ],
-//                     [
-//                         'label' => 'The team',
-//                         'route' => 'content',
-//                         'page' => 'team'
-//                     ],
-//                     [
-//                         'label' => 'Contact',
-//                         'route' => 'content',
-//                         'page' => 'contact'
-//                     ]
-//                 ]*/
-//             ],
+            [
+                 'label' => 'Terms and Conditions',
+                 'route' => 'content',
+
+             ],
             [
                 'label' => 'Users',
                 'route' => 'users',

@@ -1,0 +1,32 @@
+<div class="list-group">
+    <?php
+
+    foreach ($pageList as $pageListEntry) {
+        if ($pageListEntry['name'] == $page) {
+            echo ("<a href='#' class='list-group-item list-group-item-action active'>"). PHP_EOL;
+            echo ($pageListEntry['label'] . "</a>");
+        }
+        else {
+            //FIXME - this URL generation is broken
+            if ($pageListEntry['url']){
+                echo ("<a href='".$pageListEntry['url']."' target='_blank' class='list-group-item list-group-item-action'>"). PHP_EOL;
+            }
+            else {
+                echo ("<a href='".$this->url('content', ['action' => $action, 'page' => $pageListEntry['name']])."' class='list-group-item list-group-item-action'>"). PHP_EOL;
+            }
+            echo ($pageListEntry['label'] . "</a>");
+        }
+    }
+    ?>
+
+
+
+</div>
+
+
+<style>
+    /* */
+    ul.dataset-features-nav  {
+        flex-direction: row;
+    }
+</style>

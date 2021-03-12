@@ -1,0 +1,36 @@
+<?php
+$pageList = [
+/*
+    'about'   => [
+        'partial' => 'application/static/partial/content-about',
+        'label'   => 'About',
+        'name'    => 'about',
+    ],
+*/
+    'termsconditions'   => [
+        'partial' => 'application/static/partial/content-termsconditions',
+        'label'   => 'Terms and Conditions',
+        'name'    => 'termsconditions',
+    ],
+    'privacypolicy'   => [
+        'url' => 'http://www.open.ac.uk/about/main/strategy-and-policies/policies-and-statements/website-privacy-ou',
+        'label'   => 'Privacy Policy',
+        'name'    => 'privacypolicy',
+    ],
+];
+if (!array_key_exists($page, $pageList)) {
+    //FIXME REDIRECT TO 404
+    echo "ERROR";
+}
+?>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <?= $this->partial('application/static/partial/left-menu',['pageList' => $pageList, 'page' => $page, 'action' => 'about']) ?>
+        </div>
+        <div class="col-md-9">
+            <?= $this->partial($pageList[$page]['partial']) ?>
+        </div>
+    </div>
+</div>
+

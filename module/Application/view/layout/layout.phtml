@@ -32,7 +32,7 @@
     <body>
 <header>
     <!-- Fixed navbar -->
-        <nav class="navbar navbar-expand-md navbar-spice fixed-top" role="navigation">
+        <nav class="navbar navbar-expand-md navbar-spice fixed-top spice-header" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,28 +59,27 @@
         </nav>
 </header>
 <!-- Begin page content -->
-<main role="main" class="container main-page-container">
+<main role="main" class="container main-page-container my-4">
     <?= $this->content ?>
+    <br clear="all" />
 </main>
-<br clear="all" />
-<footer class="footer">
+
+<footer class="footer py-3">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <span class="text-muted text-left">
-<?php /*?>
-                    <a href="<?= $this->url('content', ['action' => 'static', 'page' => 'about'])?>">About</a><br />
-                    <a href="<?= $this->url('content', ['action' => 'static', 'page' => 'termsconditions'])?>">Terms and Conditions</a><br />
-                    <a href="<?= $this->url('content', ['action' => 'static', 'page' => 'contact'])?>">Contact</a><br />
-<?php */ ?>         <a href="#">About</a><br />
-                    <a href="#">Terms and Conditions</a><br />
-                    <a href="#">Contact</a><br />
-                </span>
+            <div class="col-md-2">
+                <span class="text-muted text-center"><a href="http://www.open.ac.uk/" target="_blank">
+                        <img src="/img/ou-logo.png" height="60px" alt="The Open University"></a></span>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-8 text-center">
+                <span class="text-muted text-left">
+
+                    <!--<a href="<?= $this->url('content',["page" => "about"]) ?>">About</a><br />-->
+                    <a href="<?= $this->url('content',["page" => "termsconditions"]) ?>">Terms and Conditions</a><br />
+                    <a href="http://www.open.ac.uk/about/main/strategy-and-policies/policies-and-statements/website-privacy-ou" target="_blank">Privacy Policy</a><br /><br />
+                </span>
                         <small class="text-muted text-right">
         	&copy; <?= date('Y') ?> <!-- - <?= date('Y') ?> --> by The Open University. All rights reserved. <br/>
-*<br/>
             Version <?= \Application\Module::VERSION ?>
                         </small>
             </div>
@@ -92,9 +91,12 @@
                 <span class="text-muted text-center"><a href="https://isds.kmi.open.ac.uk/" target="_blank">
                         <img src="/img/isds-logo.png" height="60px" alt="ISDS"></a></span>
             </div> -->
-            <div class="col-md-4 text-right">
+            <div class="col-md-2 text-right">
                 <span class="text-muted text-center"><a href="http://www.open.ac.uk/" target="_blank">
-                        <img src="/img/ou-logo.png" height="60px" alt="The Open University"></a></span>
+                        <img src="/img/eu_footer.png" height="40px" alt="European Union"></a><br />
+                    <small class="text-muted text-right">This project has received funding from the European Union’s Horizon 2020
+                        research and innovation programme.</small></span>
+
             </div>
 
             <!-- <div class="col-md-2 text-center">
