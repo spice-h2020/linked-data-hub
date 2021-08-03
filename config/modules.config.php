@@ -39,6 +39,7 @@ return [
     'MKDF\Topics',
     'MKDF\Keys',
     'MKDF\Stream',
+    'MKDF\Sparql',
     'MKDF\File',
     'Application'
 ];

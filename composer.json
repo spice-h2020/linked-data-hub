@@ -35,8 +35,9 @@
         "mkdf/mkdf-core": "master@dev",
         "mkdf/mkdf-datasets": "master@dev",
         "mkdf/mkdf-file": "master@dev",
-        "mkdf/mkdf-stream": "master@dev",
-        "mkdf/mkdf-topics": "master@dev"
+        "mkdf/mkdf-stream": "dev-master",
+        "mkdf/mkdf-topics": "master@dev",
+        "mkdf/mkdf-sparql": "dev-main"
     },
     "autoload": {
         "psr-4": {

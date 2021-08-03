@@ -1,3 +1,13 @@
+#REDIRECT TO HOLDING PAGE
+#Options +FollowSymlinks
+#RewriteEngine on
+#RewriteCond %{REQUEST_URI} !/holding.html$ 
+#
+#RewriteRule $ /holding.html [R=307,L]
+
+
+
+
 RewriteEngine On
 # The following rule tells Apache that if the requested filename
 # exists, simply serve it.
