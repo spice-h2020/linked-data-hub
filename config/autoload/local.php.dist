@@ -27,7 +27,11 @@ return [
             'server-url'    =>  'api-factory-server-url',
             'public-url'    =>  'api-factory-web-url'
         ],
-        'mkdf-file' => [
+    'mkdf-file' => [
             'destination' => 'data/',
-        ]
+        ],
+    'mkdf-sparql'   => [
+        'rdfjobs-dataset' =>    'dataset',
+        'rdfjobs-key' =>        'key'
+    ],
 ];
