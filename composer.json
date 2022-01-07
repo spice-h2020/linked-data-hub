@@ -46,7 +46,12 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "ApplicationTest\\": "module/Application/test/"
+	        "MKDF\\Core\\" :"module/mkdf-core/src",
+	        "MKDF\\Datasets\\" :"module/mkdf-datasets/src",
+	        "MKDF\\File\\" :"module/mkdf-file/src",
+	        "MKDF\\Stream\\" :"module/mkdf-stream/src",
+	        "MKDF\\Topics\\" :"module/mkdf-topics/src",
+	        "MKDF\\Sparql\\" :"module/mkdf-sparql/src"
         }
     },
     "scripts": {
