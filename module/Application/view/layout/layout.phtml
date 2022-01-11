@@ -14,7 +14,8 @@
         <!-- Le styles -->
         <?= $this->headLink(['rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/favicon.ico'])
         ->prependStylesheet($this->basePath('css/jquery-ui.css'))
-        ->prependStylesheet($this->basePath('css/bootstrap.css'))
+        //->prependStylesheet($this->basePath('css/bootstrap.css'))
+        ->prependStylesheet($this->basePath('bootstrap-4.6.1-dist/css/bootstrap.css'))
         ->appendStylesheet($this->basePath('css/style.css'))
         ->appendStylesheet('https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/1.12.0/mapbox-gl.css')
         ->appendStylesheet($this->basePath('css/map.css'))
@@ -26,11 +27,11 @@
         <?= $this->inlineScript()
         ->prependFile($this->basePath('js/jquery-ui.js'))
         ->prependFile($this->basePath('js/jquery-3.1.0.min.js'))
-        //->prependFile($this->basePath('js/bootstrap.bundle.min.js'))
+        ->prependFile($this->basePath('bootstrap-4.6.1-dist/js/bootstrap.bundle.js'))
         ->appendFile('https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/1.12.0/mapbox-gl.js')
         ->prependFile($this->basePath('js/yasqe.bundled.min.js'))
         ->prependFile('https://cdn.jsdelivr.net/npm/yasgui-yasr@2.12.19/dist/yasr.bundled.min.js')
-        ->appendFile('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js')
+
         ?>
 
 <link rel="stylesheet" href="/fontawesome-free-5.6.3-web/css/all.css"/>
