@@ -25,7 +25,8 @@ return [
             'user'  =>  'username',
             'pass'  =>  'password',
             'server-url'    =>  'api-factory-server-url',
-            'public-url'    =>  'api-factory-web-url'
+            'public-url'    =>  'api-factory-web-url',
+            'access-requests' => 'access_requests_dataset'
         ],
     'mkdf-file' => [
             'destination' => 'data/',
@@ -33,5 +34,9 @@ return [
     'mkdf-sparql'   => [
         'rdfjobs-dataset' =>    'dataset',
         'rdfjobs-key' =>        'key'
+    ],
+    'email' => [
+        'from-email' => 'email address',
+        'from-label' => 'email label',
     ],
 ];
