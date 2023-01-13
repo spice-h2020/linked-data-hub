@@ -1,0 +1,39 @@
+<h1>Apply license</h1>
+<?= $this->partial('mkdf/core/partial/messages', ['messages' => $messages] ) ?>
+<!-- Token: <?= $token ?> -->
+<p>
+    Are you sure you wish to apply this license?<br />
+    <em><?= $license ?>
+        <?php
+            if ($custom) {
+                print('(custom license)');
+            }
+        ?>
+    </em>
+    <br />
+</p>
+<?= $this->partial('mkdf/core/partial/actions', [
+    'buttons'=>[
+        [
+            'type'=>'primary',
+            'label'=>'Yes, apply this license',
+            'target'=> 'dataset-policies',
+            'params'=>
+                [
+                    'id' => $dataset->id,
+                    'action' => 'apply'
+                ],
+            'query' =>
+                [
+                    'license' => $license,
+                    'licenseScope' => $licenseScope,
+                    'jsondoc' => $jsonDoc,
+                    'filename' => $filename,
+                    'userScope' => $userScope,
+                    'assigneeEmail' => $assigneeEmail,
+                    'custom' => $custom,
+                    'token' => $token
+                ]
+        ],
+        ['type'=>'danger','label'=>'No, go back please', 'target'=> 'dataset-policies', 'params'=> ['id' => $dataset->id, 'action' => 'index']]]
+] ); ?>

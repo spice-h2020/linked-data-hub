@@ -46,12 +46,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-	        "MKDF\\Core\\" :"module/mkdf-core/src",
-	        "MKDF\\Datasets\\" :"module/mkdf-datasets/src",
-	        "MKDF\\File\\" :"module/mkdf-file/src",
-	        "MKDF\\Stream\\" :"module/mkdf-stream/src",
-	        "MKDF\\Topics\\" :"module/mkdf-topics/src",
-	        "MKDF\\Sparql\\" :"module/mkdf-sparql/src"
+            "MKDF\\Core\\" :"module/mkdf-core/src",
+            "MKDF\\Datasets\\" :"module/mkdf-datasets/src",
+            "MKDF\\File\\" :"module/mkdf-file/src",
+            "MKDF\\Stream\\" :"module/mkdf-stream/src",
+            "MKDF\\Topics\\" :"module/mkdf-topics/src",
+            "MKDF\\Sparql\\" :"module/mkdf-sparql/src",
+            "MKDF\\Policies\\" :"module/mkdf-policies/src"
         }
     },
     "scripts": {
