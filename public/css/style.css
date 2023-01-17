@@ -199,3 +199,10 @@ pre {
 .renderjson .keyword       { color: lightgoldenrodyellow; }
 .renderjson .object.syntax { color: lightseagreen; }
 .renderjson .array.syntax  { color: lightsalmon; }
+
+/* License rendering - card headers
+---------------------- */
+
+.card-header-license {
+    background-color: #d8d8d8;
+}
