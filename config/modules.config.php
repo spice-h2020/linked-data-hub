@@ -36,10 +36,11 @@ return [
     'DoctrineORMModule',
     'MKDF\Core',
     'MKDF\Datasets',
+    'MKDF\Policies',
     'MKDF\Topics',
     'MKDF\Keys',
     'MKDF\Stream',
     'MKDF\Sparql',
     'MKDF\File',
-    'Application'
+    'Application',
 ];

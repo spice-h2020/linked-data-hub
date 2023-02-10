@@ -1,0 +1,29 @@
+{
+  "_id": "12345",
+  "@type": "NegotiationWorkflow",
+  "dataset": "783647-3423-345-gfh-546",
+  "requestUser": "dataset-user-email",
+  "licenseScope": "dataset|document|file",
+  "resourceId": "null|filename.jpg|json_doc_id",
+  "created": "<timestamp>",
+  "modified": "<timestamp>",
+  "status": "REQUESTED|APPROVED|REJECTED|COUNTER",
+  "history": [
+    {
+      "type": "request",
+      "timestamp": "<timestamp>",
+      "comment": "Comments and messages associated with the request",
+      "policiesAdded": [],
+      "policiesRemoved": []
+    },
+    {
+      "type": "response",
+      "timestamp": "<timestamp>",
+      "user": "(dataset owner/manager)",
+      "comment": "Comments and messages associated with the response",
+      "responseStatus": "APPROVED|REJECTED|COUNTER",
+      "counterOffer": []
+    }
+  ],
+  "finalLicense": {...}
+}

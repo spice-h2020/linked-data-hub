@@ -32,12 +32,13 @@
         "ext-openssl": "*",
         "zendframework/zend-paginator": "^2.8",
         "ext-curl": "*",
-        "mkdf/mkdf-core": "master@dev",
-        "mkdf/mkdf-datasets": "master@dev",
-        "mkdf/mkdf-file": "master@dev",
+        "mkdf/mkdf-core": "master",
+        "mkdf/mkdf-datasets": "dev-master",
+        "mkdf/mkdf-file": "dev-master",
         "mkdf/mkdf-stream": "dev-master",
-        "mkdf/mkdf-topics": "master@dev",
-        "mkdf/mkdf-sparql": "dev-main"
+        "mkdf/mkdf-topics": "dev-master",
+        "mkdf/mkdf-sparql": "dev-main",
+	    "mkdf/mkdf-policies": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -46,12 +47,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-	        "MKDF\\Core\\" :"module/mkdf-core/src",
-	        "MKDF\\Datasets\\" :"module/mkdf-datasets/src",
-	        "MKDF\\File\\" :"module/mkdf-file/src",
-	        "MKDF\\Stream\\" :"module/mkdf-stream/src",
-	        "MKDF\\Topics\\" :"module/mkdf-topics/src",
-	        "MKDF\\Sparql\\" :"module/mkdf-sparql/src"
+            "MKDF\\Core\\" :"module/mkdf-core/src",
+            "MKDF\\Datasets\\" :"module/mkdf-datasets/src",
+            "MKDF\\File\\" :"module/mkdf-file/src",
+            "MKDF\\Stream\\" :"module/mkdf-stream/src",
+            "MKDF\\Topics\\" :"module/mkdf-topics/src",
+            "MKDF\\Sparql\\" :"module/mkdf-sparql/src",
+            "MKDF\\Policies\\" :"module/mkdf-policies/src"
         }
     },
     "scripts": {
