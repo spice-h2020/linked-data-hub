@@ -40,6 +40,9 @@ return [
         'policies-requests-dataset' => 'policies-requests-dataset',
         'policies-key' =>        'policies-key'
     ],
+    'notifications' => [
+        'notifications-dataset' => 'notifications-dataset',
+    ],
     'email' => [
         'from-email' => 'email address',
         'from-label' => 'email label',
