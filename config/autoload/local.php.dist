@@ -42,6 +42,7 @@ return [
     ],
     'notifications' => [
         'notifications-dataset' => 'notifications-dataset',
+        'notifications-key' => 'notifications-key',
     ],
     'email' => [
         'from-email' => 'email address',
