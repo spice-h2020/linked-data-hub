@@ -26,7 +26,8 @@ return [
             'pass'  =>  'password',
             'server-url'    =>  'api-factory-server-url',
             'public-url'    =>  'api-factory-web-url',
-            'access-requests' => 'access_requests_dataset'
+            'access-requests' => 'access_requests_dataset',
+            'dataset-metadata' => 'metadata_dataset'
         ],
     'mkdf-file' => [
             'destination' => 'data/',
