@@ -44,6 +44,12 @@ return [
     'notifications' => [
         'notifications-dataset' => 'notifications-dataset',
         'notifications-key' => 'notifications-key',
+        //Set 'development' to True to avoid emailing all LDH users. Only users in development-emails will be sent to
+        'development' => True,
+        'development-emails' => [
+            'email1@email.com',
+            'email2@email.com'
+        ]
     ],
     'email' => [
         'from-email' => 'email address',
